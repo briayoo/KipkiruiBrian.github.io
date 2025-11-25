@@ -155,9 +155,12 @@ body {
 }
 
 .hero h1 span {
-    background: linear-gradient(90deg, var(--primary) 0%, var(--accent) 100%);
+   .some-element {
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-image: linear-gradient(to right, #ff8a00, #e52e71);
+}
 }
 
 .hero p {
